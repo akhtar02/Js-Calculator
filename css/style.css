@@ -1,0 +1,133 @@
+body{
+    /* background-color: black; */
+    background-image: url(../images/background.jpg);
+background-size: cover;
+}
+
+.main{
+    width: 310px;
+    height: 510px;
+    margin: 0 auto;
+    background-color: #ebebeb;
+text-align: center;
+    padding: 5px;
+margin-top: 50px;
+border-radius: 10px;
+box-shadow: 0x 0px 10px 1px solid black;
+}
+.result{
+    width: 95.9%;
+    position: relative;
+    right: 5px;
+    bottom: 15px;
+    background-color: #e8bd46;
+height: 90px;
+    color: black;
+    border: 1px solid #e8bd46;
+
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    padding: 10px;
+    font-size: 50px;
+    margin-top: 10px;
+    font-weight: 700;
+}
+.result:focus , .btn:focus{
+    outline: 0;
+}
+.btnC1 , .btnC2 , .btnC3 , .btnC4{
+    margin-left: 20px;
+    margin-right: 20px;
+
+    margin-top: 0.1px;
+    border-radius: 90px;
+    width: 50px;
+    height: 50px;
+    padding: 7px;
+    transition: 0.5s;
+    transition: 0.5s;
+    font-size: 24px;
+    font-weight: 700;
+}
+.btnC1:focus , .btnC2:focus {
+outline: 0;
+}
+.btnC3:focus , .btnC4:focus {
+outline: 0;
+}
+.halfBtn{
+    outline: 0;
+}
+.btnC1 , .btnC2 , .btnC3 , .btnC4{
+    background-color: #e8bd46;
+    border: 1px solid #e8bd46;
+}
+.btnC2{
+    font-size: 20px;
+
+}
+.btn{
+    background-color: #ebebeb;
+    margin: 20px;
+    margin-top: 5px;
+    border: 1px solid #ebebeb;
+    padding: 7px;
+    transition: 0.5s;
+font-size: 17px;
+font-weight: 600;
+}
+.btn:hover{
+    transform: scale(1.1);
+    z-index: 2;
+color: black;
+}
+.btnC5 , .btnC6 , .btnC7 , .btnC8{
+    background-color: #ebebeb;
+    border: 1px solid #ebebeb;
+    padding: 30px;
+    transition: 0.5s;
+    font-size: 17px;
+    font-weight: 600;
+}
+#pi , #back{
+    position: relative;
+    right: 15px;
+}
+.btnC5:focus , .btnC6:focus , .btnC7:focus , .btnC8:focus{
+    outline: 0;
+}
+#back{
+    position: relative;
+    padding: 25px;
+    font-size: 20px;
+}
+
+.halfBtn{
+    background-color: #ebebeb;
+    width: 45%;
+    margin: 15px;
+    margin-top: 5px;
+
+    border: 1px solid #ebebeb;
+    font-size: 17px;
+    margin-left: 19px;
+    font-weight: 600;
+/* padding: 7px; */
+}
+#btn2{
+    margin-left: 52px;
+    font-weight: 700;
+}
+
+#clrBtn{
+    font-size: 19px;
+    font-weight: bold;
+}
+#clrBtn2{
+    font-size: 17px;
+    font-weight: bold;
+}
+#clrBtn3{
+    position: relative;
+    right: 5px;
+}

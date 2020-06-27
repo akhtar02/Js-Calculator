@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator</title>
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="css/style.css">
+    <!-- Bootstrap CSS CDN -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <!-- Custom JS -->
+    <script src="js/app.js"></script>
+</head>
+<body>
+    <div class="mainMain">
+    <div class="main">
+        <div class="display">
+            <input type="text" id="result" class="result" name="" id="">
+        </div>
+        <div>
+            <button class="btnC5"  onclick= "getSqrt('√')">√</button>
+            <button class="btnC6"  onclick= "getPow('x²')">x²</button>
+            <button class="btnC7" id="pi"  onclick= "getPi('π')">π</button>
+            <button class="btnC8" id="back" onclick= "backspace('x')"><i class =  "fa fa-window-close"></i></button>
+
+        </div>
+        <div>
+            <button class="btn" id="clrBtn" onclick="clearResult()">C</button>
+            <button class="btn" id="clrBtn2" onclick="getNumber('%')">%</button>
+            <button class="btn" id="clrBtn3" onclick="getNumber('.')">.</button>
+            <button class="btnC1" id="clrBtn3" onclick="getNumber('/')">÷</button>
+
+        </div>
+        <div>
+            <button class="btn" onclick="getNumber('7')">7</button>
+            <button class="btn" onclick="getNumber('8')">8</button>
+            <button class="btn" onclick="getNumber('9')">9</button>
+            <button class="btnC2" onclick="getNumber('*')">x</button>
+        </div>
+        <div>
+            <button class="btn" onclick="getNumber('4')">4</button>
+            <button class="btn" onclick="getNumber('5')">5</button>
+            <button class="btn" onclick="getNumber('6')">6</button>
+            <button class="btnC3" onclick="getNumber('-')">-</button>
+        </div>
+        <div>
+            <button class="btn" onclick="getNumber('1')">1</button>
+            <button class="btn" onclick="getNumber('2')">2</button>
+            <button class="btn" onclick="getNumber('3')">3</button>
+            <button class="btnC4" onclick="getNumber('+')">+</button>
+        </div>
+        <div>
+            <button class="halfBtn" onclick="getNumber('0')">0</button>
+            <button class="btn" id="btn2" onclick="getResult('=')">=</button>
+
+        </div>
+    </div>
+    </div>
+</body>
+
+</html>
